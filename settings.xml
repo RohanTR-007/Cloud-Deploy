@@ -1,7 +1,7 @@
 <settings> 
 <servers>
   <server>
-    <id>next-work-Nextwork_CI_CD_Project</id>
+    <id>next-work-codeartifact-nextwork</id>
     <username>aws</username>
     <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
   </server>
@@ -9,14 +9,14 @@
 
 <profiles>
   <profile>
-    <id>next-work-Nextwork_CI_CD_Project</id>
+    <id>next-work-codeartifact-nextwork</id>
     <activation>
       <activeByDefault>true</activeByDefault>
     </activation>
     <repositories>
       <repository>
-        <id>next-work-Nextwork_CI_CD_Project</id>
-        <url>https://next-work-996091555309.d.codeartifact.eu-north-1.amazonaws.com/maven/Nextwork_CI_CD_Project/</url>
+        <id>next-work-codeartifact-nextwork</id>
+        <url>https://next-work-996091555309.d.codeartifact.us-east-1.amazonaws.com/maven/codeartifact-nextwork/</url>
       </repository>
     </repositories>
   </profile>
@@ -24,9 +24,9 @@
 
 <mirrors>
   <mirror>
-    <id>next-work-Nextwork_CI_CD_Project</id>
-    <name>next-work-Nextwork_CI_CD_Project</name>
-    <url>https://next-work-996091555309.d.codeartifact.eu-north-1.amazonaws.com/maven/Nextwork_CI_CD_Project/</url>
+    <id>next-work-codeartifact-nextwork</id>
+    <name>next-work-codeartifact-nextwork</name>
+    <url>https://next-work-996091555309.d.codeartifact.us-east-1.amazonaws.com/maven/codeartifact-nextwork/</url>
     <mirrorOf>*</mirrorOf>
   </mirror>
 </mirrors>
