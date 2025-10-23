@@ -9,14 +9,14 @@
 
 <profiles>
   <profile>
-    <id>next-work-codeartifact-nextwork</id>
+    <id>next-work-codeartifact-nextwork-rohan</id>
     <activation>
       <activeByDefault>true</activeByDefault>
     </activation>
     <repositories>
       <repository>
-        <id>next-work-codeartifact-nextwork</id>
-        <url>https://next-work-996091555309.d.codeartifact.us-east-1.amazonaws.com/maven/codeartifact-nextwork/</url>
+        <id>next-work-codeartifact-nextwork-rohan</id>
+        <url>https://next-work-996091555309.d.codeartifact.us-east-1.amazonaws.com/maven/codeartifact-nextwork-rohan/</url>
       </repository>
     </repositories>
   </profile>
@@ -24,9 +24,9 @@
 
 <mirrors>
   <mirror>
-    <id>next-work-codeartifact-nextwork</id>
-    <name>next-work-codeartifact-nextwork</name>
-    <url>https://next-work-996091555309.d.codeartifact.us-east-1.amazonaws.com/maven/codeartifact-nextwork/</url>
+    <id>next-work-codeartifact-nextwork-rohan</id>
+    <name>next-work-codeartifact-nextwork-rohan</name>
+    <url>https://next-work-996091555309.d.codeartifact.us-east-1.amazonaws.com/maven/codeartifact-nextwork-rohan/</url>
     <mirrorOf>*</mirrorOf>
   </mirror>
 </mirrors>
