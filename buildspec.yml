@@ -20,7 +20,7 @@ phases:
       - mvn package -s settings.xml
 artifacts:
   files:
-    - target/next-work-codeartifact-nextwork-rohan.war
+    - target/next-work/next-work-codeartifact-nextwork-rohan.war
     - appspec.yml
     - scripts/**/*
   discard-paths: no

@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /target/next-work-codeartifact-nextwork-rohan.war
+  - source: /target/next-work/next-work-codeartifact-nextwork-rohan.war
     destination: /usr/share/tomcat/webapps/
 hooks:
   BeforeInstall:
